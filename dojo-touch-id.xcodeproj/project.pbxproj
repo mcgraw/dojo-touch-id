@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F071E4631A79C385003540E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F071E4621A79C385003540E0 /* AppDelegate.swift */; };
+		F071E4651A79C385003540E0 /* XMCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F071E4641A79C385003540E0 /* XMCViewController.swift */; };
+		F071E4681A79C385003540E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F071E4661A79C385003540E0 /* Main.storyboard */; };
+		F071E46A1A79C385003540E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F071E4691A79C385003540E0 /* Images.xcassets */; };
+		F071E4851A79CEF7003540E0 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F071E4821A79CECA003540E0 /* LocalAuthentication.framework */; };
+		F071E4871A79CF66003540E0 /* XMCAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F071E4861A79CF66003540E0 /* XMCAuthViewController.swift */; };
+		F071E4891A79E21B003540E0 /* LaunchScreen_dev.xib in Resources */ = {isa = PBXBuildFile; fileRef = F071E4881A79E21B003540E0 /* LaunchScreen_dev.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F071E45D1A79C385003540E0 /* dojo-touch-id.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dojo-touch-id.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F071E4611A79C385003540E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F071E4621A79C385003540E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F071E4641A79C385003540E0 /* XMCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMCViewController.swift; sourceTree = "<group>"; };
+		F071E4671A79C385003540E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F071E4691A79C385003540E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F071E4821A79CECA003540E0 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		F071E4861A79CF66003540E0 /* XMCAuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMCAuthViewController.swift; sourceTree = "<group>"; };
+		F071E4881A79E21B003540E0 /* LaunchScreen_dev.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen_dev.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F071E45A1A79C385003540E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F071E4851A79CEF7003540E0 /* LocalAuthentication.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F071E4541A79C385003540E0 = {
+			isa = PBXGroup;
+			children = (
+				F071E45F1A79C385003540E0 /* dojo-touch-id */,
+				F071E4841A79CEE5003540E0 /* Frameworks */,
+				F071E45E1A79C385003540E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F071E45E1A79C385003540E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F071E45D1A79C385003540E0 /* dojo-touch-id.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F071E45F1A79C385003540E0 /* dojo-touch-id */ = {
+			isa = PBXGroup;
+			children = (
+				F071E4621A79C385003540E0 /* AppDelegate.swift */,
+				F071E4641A79C385003540E0 /* XMCViewController.swift */,
+				F071E4861A79CF66003540E0 /* XMCAuthViewController.swift */,
+				F071E4661A79C385003540E0 /* Main.storyboard */,
+				F071E4691A79C385003540E0 /* Images.xcassets */,
+				F071E4881A79E21B003540E0 /* LaunchScreen_dev.xib */,
+				F071E4601A79C385003540E0 /* Supporting Files */,
+			);
+			path = "dojo-touch-id";
+			sourceTree = "<group>";
+		};
+		F071E4601A79C385003540E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F071E4611A79C385003540E0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F071E4841A79CEE5003540E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F071E4821A79CECA003540E0 /* LocalAuthentication.framework */,
+			);
+			name = Frameworks;
+			path = "dojo-touch-id";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F071E45C1A79C385003540E0 /* dojo-touch-id */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F071E47C1A79C385003540E0 /* Build configuration list for PBXNativeTarget "dojo-touch-id" */;
+			buildPhases = (
+				F071E4591A79C385003540E0 /* Sources */,
+				F071E45A1A79C385003540E0 /* Frameworks */,
+				F071E45B1A79C385003540E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dojo-touch-id";
+			productName = "dojo-touch-id";
+			productReference = F071E45D1A79C385003540E0 /* dojo-touch-id.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F071E4551A79C385003540E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "David McGraw";
+				TargetAttributes = {
+					F071E45C1A79C385003540E0 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = F071E4581A79C385003540E0 /* Build configuration list for PBXProject "dojo-touch-id" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F071E4541A79C385003540E0;
+			productRefGroup = F071E45E1A79C385003540E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F071E45C1A79C385003540E0 /* dojo-touch-id */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F071E45B1A79C385003540E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F071E4681A79C385003540E0 /* Main.storyboard in Resources */,
+				F071E4891A79E21B003540E0 /* LaunchScreen_dev.xib in Resources */,
+				F071E46A1A79C385003540E0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F071E4591A79C385003540E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F071E4871A79CF66003540E0 /* XMCAuthViewController.swift in Sources */,
+				F071E4651A79C385003540E0 /* XMCViewController.swift in Sources */,
+				F071E4631A79C385003540E0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F071E4661A79C385003540E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F071E4671A79C385003540E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F071E47A1A79C385003540E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F071E47B1A79C385003540E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F071E47D1A79C385003540E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "dojo-touch-id/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F071E47E1A79C385003540E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "dojo-touch-id/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F071E4581A79C385003540E0 /* Build configuration list for PBXProject "dojo-touch-id" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F071E47A1A79C385003540E0 /* Debug */,
+				F071E47B1A79C385003540E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F071E47C1A79C385003540E0 /* Build configuration list for PBXNativeTarget "dojo-touch-id" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F071E47D1A79C385003540E0 /* Debug */,
+				F071E47E1A79C385003540E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F071E4551A79C385003540E0 /* Project object */;
+}
